@@ -1,0 +1,107 @@
+body {
+    font-family: "Montserrat-black";
+    height: 2000px;
+}
+
+.CSS {
+    color: blue;
+    /*background: red;*/
+    font-size: 50px;
+}
+
+/*.Header {
+    text-align: center;
+}*/
+
+.Header {
+    /*text-align: RI;*/
+    background: orange;
+    padding: 30px;
+    margin: 10px;
+    border: 5px solid green;
+    border-radius: 10px;
+    width: auto;
+    /*width: 100%;*/
+    height: auto;
+   /* background-image: url(../image.jpeg);*/
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    box-shadow: 2px 2px 2px grey;
+    cursor: pointer;
+    overflow:scroll;
+
+    /*Opacity*/
+    opacity: 1;
+    display: inline-block;
+
+}
+
+/*light-height used in paragraphs */
+p {
+    line-height: 1.7;
+    color: white;
+}
+
+/*list-style-type*/
+ul {
+    list-style-type: Square;
+}
+
+
+.wrapper {
+    width: 400px;
+    height: 400px;
+    background: red;
+    margin: 40px;
+    transition: background 6s ease;
+   /* transform: rotate(45deg);*/
+   transform: translate(300px,400PX);
+
+    /*position: relative;*/
+}
+.wrapper:hover {
+    background: blue;
+}
+
+/*.inner {
+    width: 50px;
+    height: 50px;
+    background: red;
+    position: absolute;
+    top: 175px;
+    right: -25px;
+    z-index: 1;
+
+}*/
+
+/*.inner2 {
+    width: 50px;
+    height: 50px;
+    background: green;
+    position: absolute;
+    top: 175px;
+    left: -25px;
+    z-index: 2;
+
+}*/
+
+input:focus {
+    border: 2px solid green;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
